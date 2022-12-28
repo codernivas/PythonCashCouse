@@ -1,14 +1,35 @@
-#input Statement
-para=[]
-print("Enter a para : ")
+#Basic
+'''
+a=10
+b=5
+c=a+b
+print(c)
+'''
 
-while True:
-  line=input()
-  if line:
-    para.append(line)
-  else:
-    break
+#Getting values from user as input
+#string Method
 
-print(para)
-output='\n'.join(para)
-print(output)
+a=input("Enter A value : ")
+b=input("Enter B value : ")
+
+print(a)
+print(b)
+
+print(type(a))
+
+#integer Method , float Method
+
+#value1=int(input("Enter Value1 : "))
+#value2=int(input("Enter Value2 : "))
+
+value1=float(input("Enter Value1 : "))
+value2=float(input("Enter Value2 : "))
+
+print(value1)
+print(value2)
+
+Total=value1+value2
+print("Total value is : ",Total)
+
+print(type(Total))
+
