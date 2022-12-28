@@ -37,7 +37,30 @@ print(type(Total))
 
 #Multiple inputs in single line
 
-name1,name2=input("Enter 2 names : ").split(',')
+'''name1,name2=input("Enter 2 names : ").split(',')
 print("Name1 is :", name1)
-print("Name2 is :", name2)
+print("Name2 is :", name2)'''
 
+#list
+'''
+para=["10","2","60"]
+print(para[1])
+
+print(",".join(para))
+'''
+
+#Multi line input like paragraph
+para=[]
+print("Enter a text ")
+
+while True:
+  line=input()
+  if line:
+    para.append(line)
+  else:
+    break
+
+print(para)
+
+output='\n'.join(para)
+print(output)
