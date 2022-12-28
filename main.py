@@ -7,6 +7,7 @@ print(c)
 '''
 
 #Getting values from user as input
+'''
 #string Method
 
 a=input("Enter A value : ")
@@ -32,4 +33,11 @@ Total=value1+value2
 print("Total value is : ",Total)
 
 print(type(Total))
+'''
+
+#Multiple inputs in single line
+
+name1,name2=input("Enter 2 names : ").split(',')
+print("Name1 is :", name1)
+print("Name2 is :", name2)
 
