@@ -69,16 +69,15 @@ print(output)
 
 #Casting Type
 
-'''
- s  a  m  p  l  e
- 0  1  2  3  4  5
--6 -5 -4 -3 -2 -1
-'''
-s="sample"
-print(s)
-print(s[0:2])
-print(s[:5])
-print(s[1:])
-print(s[-2:-1])
-print(s[:-1])
-print(s[::-1])
+#If Statement
+i = 1
+while i <= 10:
+  print(i)
+  i += 1
+print("-----------------")
+print("Even No : ")
+n = 20
+i = 2
+while i <= 20:
+  print(i)
+  i += 2
