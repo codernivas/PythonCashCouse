@@ -68,4 +68,3 @@ print(output)
 '''
 
 #Casting Type
-
