@@ -69,5 +69,3 @@ print(output)
 
 #Casting Type
 
-#If Statement
-
